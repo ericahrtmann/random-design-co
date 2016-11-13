@@ -102,8 +102,68 @@ textarea {
   box-sizing: inherit;
 }
 
-body {
-  border: 1px solid red; 
+.page-header {
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.page-header i {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+.main {
+  position: relative;
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 4em;
+  text-transform: uppercase;
+  word-break: normal;
+}
+
+
+.main button {
+  border: 1px solid white;
+  background: transparent;
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: -1em;
+}
+
+.main img {
+  width: 100%;
+}
+
+.purple-background {
+  display: block;
+  position: relative;
+  z-index: -10;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about {
+  border-bottom: 1px solid grey;
 }
 
 
