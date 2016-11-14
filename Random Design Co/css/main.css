@@ -126,15 +126,15 @@ textarea {
 
 .main {
   position: relative;
+  text-align: center;
 }
 
 .main h2 {
   color: #fff;
   font-size: 4em;
   text-transform: uppercase;
-  word-break: normal;
+  margin: 0;
 }
-
 
 .main button {
   border: 1px solid white;
@@ -142,7 +142,7 @@ textarea {
   color: #fff;
   font-size: 2em;
   text-transform: uppercase;
-  margin-top: -1em;
+  line-height: 1em;
 }
 
 .main img {
@@ -166,16 +166,31 @@ textarea {
   border-bottom: 1px solid grey;
 }
 
+.grid {
+  border: 1px solid #fff;
+  overflow: auto;
+}
 
+.project {
+  float: left;
+  width: 50%;
+  float: left;
+  border: 1px solid #fff;
+}
+.project-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: #000;
+}
 
-
-
-
-
-
-
-
-
+footer {
+  text-align: center;
+  border: 1px solid grey;
+  font-size: 1em;
+  padding: 1em;
+  clear: both;
+}
 
 
 
